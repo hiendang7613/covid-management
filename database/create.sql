@@ -34,7 +34,7 @@ CREATE TABLE "NguoiLienQuan"(
 	"DiaChi" varchar(50),
 	"SoDienThoai" varchar(12),
 	"TrangThaiHienTai" varchar(10),
-	"NoiDieuTri" int4 NOT NULL,
+	"NoiDieuTri" int4 ,
 	
 	PRIMARY KEY ("MaNguoiLienQuan")
 );
